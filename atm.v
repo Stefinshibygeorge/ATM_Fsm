@@ -1,11 +1,8 @@
 `timescale 1ns / 1ps
 
-// ======================================================
-//                 ATM FSM (FPGA-Safe Version)
-// ======================================================
 module ATM(
-    input            clk,           // FSM clock (~1 kHz recommended)
-    input            rst,           // Active-high reset
+    input            clk,           
+    input            rst,           
     input  [1:0]     mode,
     input  [11:0]    keypad,
     input            load,
